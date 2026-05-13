@@ -1,0 +1,12 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+.streamlit/
+.idea/
+.vscode/launch.json
+*.egg-info/
+# Hugging Face caches live under ~/.cache, but in case they get copied:
+hf_cache/
