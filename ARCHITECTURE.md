@@ -1,10 +1,6 @@
 # Architecture & Design Decisions
 
-This document is the **"technical depth"** companion to the README — the
-place where a grader can verify that every architectural choice is
-deliberate, every constraint understood, and every challenge resolved.
-
----
+This document is the **"technical depth"** companion to the README
 
 ## 1. Model choices
 
