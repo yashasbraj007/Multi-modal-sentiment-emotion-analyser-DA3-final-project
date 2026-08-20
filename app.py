@@ -3,9 +3,6 @@ MoodSyncAI -- Multi-Modal Sentiment & Emotion Analyser
 =====================================================
 Streamlit entry point.
 
-Course : Data Analytics 3 -- Deep Learning & GenAI
-Module : Final Project
-
 Pipeline
 --------
 1. Vision  : Vision Transformer (ViT) -> 7-class facial emotion distribution.
@@ -227,7 +224,7 @@ if analyse:
                 st.markdown(attn_html, unsafe_allow_html=True)
 
     # ------------------------------------------------------------------ fusion
-    st.subheader("🔀  Fusion result")
+    st.subheader("  Fusion result")
     if f_out["mismatch"]:
         badge = "🟠  MISMATCH DETECTED"
         badge_color = "orange"
